@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int num,num1,final=0;
+	printf("請輸入數字上限:");
+	scanf("%d",&num1); 
+	for(num=1;num<=num1;num++)
+	final+=num;
+	printf("1+2+3....+n的總和=%d\n",final);
+	system("pause");
+	return 0;
+}
